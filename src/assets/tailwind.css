@@ -1,0 +1,46 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+
+body{
+    background-color: #efefef;
+    color:#5c6285;
+    letter-spacing: 0.05em;
+}
+.font-opensans {
+    font-family: 'Open Sans', sans-serif;
+  }
+.snippet-holder {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+}
+.snippet-highlight, 
+.snippet-features{
+    border-bottom: solid 1px #eee;
+}
+.snippet-features ul{
+    padding: 0;
+    margin: 0;
+}
+.snippet-owner{
+    background-color: #f7f7f7;
+}
+.snippet-features li{
+    display: inline-block;
+}
+.snippet-features li > span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.hearticon {
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    opacity: 0.6;
+}
