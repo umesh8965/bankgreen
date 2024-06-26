@@ -29,6 +29,7 @@ favorite_border
           <div class="ml-5 inline-block align-middle">
             <span class="block font-bold text-base">{{ jsondata.realtorname }}</span>
             <span class="block font-bold text-sm ">{{ jsondata.realtorcontect }}</span>
+            <span>Error</span>
           </div>
           <div class="clear-both"></div>
         </div>
